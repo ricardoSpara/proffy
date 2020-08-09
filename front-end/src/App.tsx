@@ -1,12 +1,11 @@
 import React from 'react';
 
 import './styles/global.css'
+import Landing from './pages/Landing'
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div>
-      <h1>Hello proffys</h1>
-    </div>
+      <Landing/>
   );
 }
 
