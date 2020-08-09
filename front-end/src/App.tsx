@@ -1,12 +1,10 @@
-import React from 'react';
+import React from "react";
 
-import './styles/global.css'
-import Landing from './pages/Landing'
+import "./styles/global.css";
+import Router from "./routes";
 
 const App: React.FC = () => {
-  return (
-      <Landing/>
-  );
-}
+  return <Router />;
+};
 
 export default App;
